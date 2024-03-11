@@ -258,9 +258,9 @@ def processAudio(i2s):
 
 printPerSecondStats = False
 
-bck_pin = Pin(11)
-ws_pin = Pin(12)
-sdin_pin = Pin(13)
+bck_pin = Pin(18)
+ws_pin = Pin(19)
+sdin_pin = Pin(20)
 
 audio_in = I2S(
 	0,
